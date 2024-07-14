@@ -65,7 +65,7 @@ let testFour = 4 != 4;  //false
 // console.log(testThree, testFour);
 
 
-// Activity 3 --------------------Comparison Operators
+// Activity 5 --------------------Ternary Operators
 // +++++++++++++++++++++Task 14
 let age = 17;
 let canVote = age >= 18 ? "Yes" : "No";
