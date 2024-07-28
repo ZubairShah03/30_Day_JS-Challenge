@@ -83,4 +83,4 @@ const taskThirteen = [
     [4, 5, 6],
     [7, 8, 9]
 ]
-console.log(taskThirteen[2][0]);// 7 => first [for row] and second [for column]
+// console.log(taskThirteen[2][0]);// 7 => first [for row] and second [for column]
