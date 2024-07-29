@@ -74,3 +74,5 @@ for(let item in book){
 // +++++++++++Activity 5 Task 9
 // use Object.keys and Object.values methods to log all the keys and values of the book object
 // console.log(Object.keys(book), Object.values(book));
+let a = "Zubair Shah";
+const b = 44;
