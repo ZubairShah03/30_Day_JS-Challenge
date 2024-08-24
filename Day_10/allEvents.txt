@@ -1,0 +1,62 @@
+
+🌟 Complete List of JavaScript Events 🌟
+
+
+**1. Mouse Events 🖱️
+`click` -> Fires when the user clicks on an element.
+`dblclick` -> Fires when the user double-clicks on an element.
+`mousedown` -> Fires when the user presses a mouse button.
+`mouseup` -> Fires when the user releases a mouse button.
+`mouseover` -> Fires when the user moves the mouse over an element.
+`mousemove` -> Fires when the mouse pointer is moving while it is over an element.
+`mouseout` -> Fires when the user moves the mouse pointer out of an element.
+`mouseenter` -> Fires when the mouse pointer enters an element.
+`mouseleave` -> Fires when the mouse pointer leaves an element.
+`wheel` -> Fires when the user scrolls the mouse wheel over an element.
+
+**2. Keyboard Events ⌨️
+`keydown` -> Fires when the user is pressing a key.
+`keypress` -> Fires when the user presses a key.
+`keyup` -> Fires when the user releases a key.
+
+**3. Form Events 📝
+`input` -> Fires when the value of an input element is changed.
+`change` -> Fires when an element loses focus and its value changed since gaining focus.
+`submit` -> Fires when a form is submitted.
+`reset` -> Fires when a form is reset.
+`focus` -> Fires when an element gains focus.
+`blur` -> Fires when an element loses focus.
+`select` -> Fires when the user selects some text in an element.
+
+**4. Window Events 🪟
+`load` -> Fires when the page has finished loading.
+`unload` -> Fires when the page is unloaded.
+`resize` -> Fires when the browser window is resized.
+`scroll` -> Fires when the user scrolls an element's scrollbar.
+
+**5. Drag and Drop Events 📦
+`drag` -> Fires when an element is being dragged.
+`dragstart` -> Fires when the user starts to drag an element.
+`dragend` -> Fires when the user has finished dragging an element.
+`dragenter` -> Fires when the dragged element enters a drop target.
+`dragover` -> Fires when the dragged element is over a drop target.
+`dragleave` -> Fires when the dragged element leaves a drop target.
+`drop` -> Fires when the dragged element is dropped on a drop target.
+
+**6. Clipboard Events 📋
+`copy` -> Fires when the user copies content.
+`cut` -> Fires when the user cuts content.
+`paste` -> Fires when the user pastes content.
+
+**7. Media Events 🎵
+`play` -> Fires when media starts playing.
+`pause` -> Fires when media is paused.
+`ended` -> Fires when media has finished playing.
+`volumechange` -> Fires when the volume changes.
+`seeked` -> Fires when seeking is finished.
+
+**8. Touch Events 🤏
+`touchstart` -> Fires when a finger touches the screen.
+`touchmove` -> Fires when a finger is dragged across the screen.
+`touchend` -> Fires when a finger is removed from the screen.
+`touchcancel` -> Fires when a touch event is disrupted.
