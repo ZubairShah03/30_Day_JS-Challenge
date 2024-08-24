@@ -1,30 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Listener</title>
     <style>
         /* task 2 */
-        img{
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            background-color: #bababa;
+        }
+
+        img {
             width: 300px;
             cursor: pointer;
+            border: 2px solid red;
         }
-        .hide{
-            visibility: hidden;
+
+        /* task 3 */
+        .task3 {
+            width: 200px;
+            height: 200px;
             background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+            cursor: pointer;
+        }
+
+        form {
+            width: 300px;
+            margin: auto;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
+
 <body>
     <!-- task 1 -->
+    <h1 class="tasks">//////////Task 1</h1>
     <p>Change me by clicking the button below</p>
     <button>Change Text</button>
 
     <!-- task 2 -->
-     <img id="image" src="https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amFwYW58ZW58MHx8MHx8fDA%3D" alt="image">
+    <h1 class="tasks">//////////Task 2</h1>
+    <img id="image"
+        src="https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amFwYW58ZW58MHx8MHx8fDA%3D"
+        alt="image">
 
+    <!-- task 3 and 4-->
+    <h1 class="tasks">//////////Task 3 and 4</h1>
+    <div class="task3">
+        <h3>Mouseover me</h3>
+    </div>
+
+    <!-- task 5-->
+    <h1 class="tasks">//////////Task 5</h1>
+    <input id="task5" type="text" placeholder="type and check console">
+
+    <!-- task 6 -->
+    <h1 class="tasks">//////////Task 6</h1>
+    <input id="task6" type="text" placeholder="type and check paragraph">
+    <p id="para6" style="display: inline-block;"></p>
+
+
+    <!-- task 7 -->
+    <h1 class="tasks">//////////Task 7</h1>
+    <h2>Submit Your Code</h2>
+    <form id="codeForm">
+        <label for="codeTitle">Enter Your Name:</label>
+        <input type="text" id="codeTitle" name="codeTitle" placeholder="e.g. John Doe" required>
+
+        <label for="codeSnippet">Code Snippet:</label>
+        <textarea id="codeSnippet" name="codeSnippet" rows="8" placeholder="Paste your code here..."></textarea>
+
+        <button id="submit" type="submit">Submit Code</button>
+    </form>
+
+
+    <!-- task 8 -->
+    <h1 class="tasks">//////////Task 8</h1>
+    <form action="">
+        <select name="dropdown" id="dropdown">
+            <option value="one" disabled selected>Select any option</option>
+            <option value="one">Option One</option>
+            <option value="two">Option two</option>
+            <option value="three">Option three</option>
+            <option value="four">Option four</option>
+        </select>
+        <p class="dropdownPara"></p>
+    </form>
+
+
+    <!-- task 9 -->
+    <h1 class="tasks">//////////Task 9</h1>
+    <ul id="list">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ul>
+
+
+    <!-- task 10 -->
+    <h1 class="tasks">//////////Task 10</h1>
+    <ol class="parent"></ol>
+    <button class="addChild">Add Child</button>
 
     <script src="events.js"></script>
 </body>
+
 </html>
